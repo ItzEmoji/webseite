@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?2ef74a" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Galerie</title>
+		<description><![CDATA[Drechslerarbeiten von Rolf Bucher]]></description>
+		<link>https://rolfbucher.ch</link>
+		<lastBuildDate>Sat, 06 Jun 2026 11:32:57 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://rolfbucher.ch/galerie?format=feed&amp;type=rss"/>
+		<language>de-de</language>
+		<item>
+			<title>50783kz</title>
+			<link>https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</guid>
+			<description><![CDATA[<div><a href="http://https:/rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten"><img src="https://rolfbucher.ch/images/phocagallery/thumbs/phoca_thumb_m_50783kz.jpg" border="0" /></a></div>]]></description>
+			<category>Laser Arbeiten</category>
+			<pubDate>Thu, 15 Jun 2023 08:06:51 +0000</pubDate>
+		</item>
+		<item>
+			<title>img_5065kz</title>
+			<link>https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</guid>
+			<description><![CDATA[<div><a href="http://https:/rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten"><img src="https://rolfbucher.ch/images/phocagallery/thumbs/phoca_thumb_m_img_5065kz.jpg" border="0" /></a></div>]]></description>
+			<category>Laser Arbeiten</category>
+			<pubDate>Thu, 15 Jun 2023 08:06:51 +0000</pubDate>
+		</item>
+		<item>
+			<title>rtlibecher</title>
+			<link>https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</guid>
+			<description><![CDATA[<div><a href="http://https:/rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten"><img src="https://rolfbucher.ch/images/phocagallery/thumbs/phoca_thumb_m_rtlibecher.jpg" border="0" /></a></div>]]></description>
+			<category>Laser Arbeiten</category>
+			<pubDate>Thu, 15 Jun 2023 08:06:51 +0000</pubDate>
+		</item>
+		<item>
+			<title>neueste Arbeiten</title>
+			<link>https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</guid>
+			<description><![CDATA[<div><a href="http://https:/rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten"><img src="https://rolfbucher.ch/images/phocagallery/thumbs/phoca_thumb_m_baby licht.jpg" border="0" /></a></div>]]></description>
+			<category>Laser Arbeiten</category>
+			<pubDate>Mon, 01 May 2023 07:05:31 +0000</pubDate>
+		</item>
+		<item>
+			<title>neueste Arbeiten</title>
+			<link>https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten</guid>
+			<description><![CDATA[<div><a href="http://https:/rolfbucher.ch/galerie/7-neuste-arbeiten/8-laser-arbeiten"><img src="https://rolfbucher.ch/images/phocagallery/thumbs/phoca_thumb_m_deko erstkommunion.jpg" border="0" /></a></div>]]></description>
+			<category>Laser Arbeiten</category>
+			<pubDate>Mon, 01 May 2023 07:05:31 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

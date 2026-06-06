@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?2ef74a" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Verkauf</title>
+		<description><![CDATA[Drechslerarbeiten von Rolf Bucher]]></description>
+		<link>https://rolfbucher.ch/verkauf</link>
+		<lastBuildDate>Sat, 06 Jun 2026 11:32:56 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://rolfbucher.ch/verkauf?format=feed&amp;type=rss"/>
+		<language>de-de</language>
+		<item>
+			<title>Schale aus Apfelholz</title>
+			<link>https://rolfbucher.ch/verkauf/24-schale-aus-apfelholz</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/verkauf/24-schale-aus-apfelholz</guid>
+			<description><![CDATA[<p class="zeile1 zeile2"><em><strong>Schöne Schale aus Apfel</strong></em></p>
+<p><strong>27 cm </strong><strong>Durchmesser und ca. 10 cm hoch <br /></strong></p>
+<p><strong>Preis auf Anfrage </strong></p>
+<p>&nbsp;<a class="jcepopup" href="https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_2.JPG" type="image/jpeg" data-mediabox="1"><img src="https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_1.JPG" alt="Apfelschüssel 1" width="79" height="71" /><strong>&nbsp;&nbsp;&nbsp;<img src="https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_2.JPG" alt="Apfelschüssel 2" width="76" height="84" /></strong> </a></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>]]></description>
+			<category>Verkauf</category>
+			<pubDate>Wed, 13 Jan 2021 11:57:26 +0000</pubDate>
+		</item>
+		<item>
+			<title>Div. Holzarten für Schalen</title>
+			<link>https://rolfbucher.ch/verkauf/4-div-holzarten-fuer-schalen</link>
+			<guid isPermaLink="true">https://rolfbucher.ch/verkauf/4-div-holzarten-fuer-schalen</guid>
+			<description><![CDATA[<p>Kirsche, Apfel, Birne, Eiche, Esche und Buche in div. Grössen</p>
+<p>Je nach Holzart zwischen 1 und 4 Jahre am Trocknen</p>
+<p>Preis auf Anfrage</p>]]></description>
+			<category>Verkauf</category>
+			<pubDate>Sun, 15 Dec 2019 07:48:17 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

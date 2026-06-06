@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+	<meta name="description" content="Drechslerarbeiten von Rolf Bucher">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Intern</title>
+	<link href="templates/rolfbucher/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+<link href="media/plg_system_webauthn/css/button.min.css@2ef74a" rel="stylesheet">
+	<link href="media/vendor/joomla-custom-elements/css/joomla-alert.min.css@0.4.1" rel="stylesheet">
+	<link href="plugins/system/jce/css/content.css@2ef74a" rel="stylesheet">
+	<link href="media/plg_system_jcemediabox/css/jcemediabox.min.css@f646e5445d3791b94e8b9282903afc4f" rel="stylesheet">
+<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"PLG_SYSTEM_WEBAUTHN_ERR_CANNOT_FIND_USERNAME":"Cannot find the username field in the login module. Sorry, Passwordless authentication will not work on this site unless you use a different login module.","PLG_SYSTEM_WEBAUTHN_ERR_EMPTY_USERNAME":"You need to enter your username (but NOT your password) before selecting the passkey login button.","PLG_SYSTEM_WEBAUTHN_ERR_INVALID_USERNAME":"The specified username does not correspond to a user account that has enabled passwordless login on this site.","JFIELD_PASSWORD_INDICATE_INCOMPLETE":"Password doesn't meet site's requirements.","JFIELD_PASSWORD_INDICATE_COMPLETE":"Password accepted","JSHOWPASSWORD":"Show Password","JHIDEPASSWORD":"Hide Password","ERROR":"Fehler","MESSAGE":"Nachricht","NOTICE":"Hinweis","WARNING":"Warnung","JCLOSE":"Close","JOK":"OK","JOPEN":"Open","JLIB_FORM_CONTAINS_INVALID_FIELDS":"The form cannot be submitted as it's missing required data. <br> Please correct the marked fields and try again.","JLIB_FORM_FIELD_REQUIRED_VALUE":"Please fill in this field","JLIB_FORM_FIELD_REQUIRED_CHECK":"One of the options must be selected","JLIB_FORM_FIELD_INVALID_VALUE":"This value is not valid"},"system.paths":{"root":"","rootFull":"https:\/\/rolfbucher.ch\/","base":"","baseFull":"https:\/\/rolfbucher.ch\/"},"csrf.token":"b9edac7ab0f0a8900f53bd93ebb6b032","system.keepalive":{"interval":2940000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="media/system/js/core.min.js@a3d8f8"></script>
+	<script src="media/system/js/keepalive.min.js@08e025" type="module"></script>
+	<script src="media/system/js/fields/validate.min.js@75ac5d" type="module"></script>
+	<script src="media/system/js/fields/passwordview.min.js@61f142" defer></script>
+	<script src="media/vendor/jquery/js/jquery.min.js@3.7.1"></script>
+	<script src="media/legacy/js/jquery-noconflict.min.js@504da4"></script>
+	<script src="media/mod_menu/js/menu.min.js@2ef74a" type="module"></script>
+	<script src="media/system/js/messages.min.js@9a4811" type="module"></script>
+	<script src="media/plg_system_webauthn/js/login.min.js@2ef74a" defer></script>
+	<script src="media/plg_system_jcemediabox/js/jcemediabox.min.js@f646e5445d3791b94e8b9282903afc4f"></script>
+	<script>jQuery(document).ready(function(){WfMediabox.init({"base":"\/","theme":"standard","width":"","height":"","lightbox":0,"shadowbox":0,"icons":1,"overlay":1,"overlay_opacity":0,"overlay_color":"","transition_speed":500,"close":2,"labels":{"close":"Close","next":"Next","previous":"Previous","cancel":"Cancel","numbers":"{{numbers}}","numbers_count":"{{current}} of {{total}}","download":"Download"},"swipe":true,"expand_on_click":true,"display_mode":"fit"});});</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="https://rolfbucher.ch/templates/system/css/system.css" type="text/css" />
+
+<style type="text/css">
+/* lobster-regular - latin */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/lobster-v22-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lobster Regular'), local('Lobster-Regular'),
+       url('fonts/lobster-v22-latin-regular.eot@') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/lobster-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/lobster-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/lobster-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/lobster-v22-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/open-sans-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('fonts/open-sans-v17-latin-regular.eot@') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/open-sans-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/open-sans-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/open-sans-v17-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+*{margin:0;padding:0}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+body{background:lightslategray;background-image:url(images/intern/hintergrund.jpg);background-repeat:repeat;color:#35313c;font-size:100%;line-height:1.25em;-ms-hyphens:auto;-webkit-hyphens:auto;hyphens:auto}
+p{font-size:.88em;margin-bottom:.88em}
+td{vertical-align:top;text-align:left}
+hr{height:0;width:100%;margin:12px 0;border-top-width:1px;border-top-style:solid;border-top-color:#D9D3B5;border-bottom:transparent}
+input,textarea{height:auto;border:1px solid lightgray !important;padding:2px 4px;margin:0 0 4px;font-size:0.9em}
+
+a:link,a:visited{text-decoration:none;color:steelblue}
+a:hover{text-decoration:underline}
+li.active a{font-weight:bold}
+a img{text-decoration:none}
+
+/* SCHRIFT */
+#Kopf .moduletable_titel .zeile1,#Kopf .moduletable_titel .zeile2,#Text h1,#Text h2,#Text h3,#Text h4,#Bild h2,#Bild h3,#Bild h4{font-family:'Lobster', serif}
+body{font-family:'Open Sans', sans-serif}
+
+/* Keine Trennhilfe */
+li.edit-icon,
+#Kopf .moduletable_titel .zeile1,
+#Kopf .moduletable_titel .zeile2,
+h1,h2,h3,h4{-ms-hyphens:none;-webkit-hyphens:none;hyphens:none}
+
+/* KLASSEN */
+.textklein{font-size:.8em !important}
+/*
+.bild_links{float:left;margin:4px 15px 0 0}
+.bild_rechts{float:right;margin:4px 0 0 15px}
+.infobox{background:#C9A3B5;width:100%;margin-bottom:10px;line-height:.8em;padding:8px 14px 12px}
+*/
+
+/* RUNDE ECKEN */
+#Rahmen,
+#Kopf .moduletable_logo{border:0;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-moz-border-radius:19px;-webkit-border-radius:19px;-khtml-border-radius:19px;border-radius:19px;behavior:url(https://rolfbucher.ch/scripts/border-radius.htc)}
+img,.infobox{border:0;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;behavior:url(https://rolfbucher.ch/scripts/border-radius.htc)}
+
+/* === KONSTRUKT ======================================= */
+#Rahmen{width:80%;margin:18px auto}
+#Kopf,#Info,#Bild2,#Inhalt,#Fuss{background:rgba(255,245,238,0.88);width:100%;padding:25px 7%;display:inline-block}
+#Kopf{padding-bottom:12px;position:relative}
+#Info{padding:0}
+#Bild,#Bild2{display:none}
+#Text,#Bild{float:left;width:100%}
+#Text{padding-right:65px}
+#Inhalt{margin:1px 0}
+/* ===================================================== */
+
+/* KOPF */
+#Kopf .moduletable_logo{position:absolute;top:0;right:0}
+#Kopf .moduletable_logo img{height:80px;width:auto;margin:20px 20px 0 0}
+
+#Kopf .moduletable_titel{color:#8b758c}
+#Kopf .moduletable_titel .zeile1{font-size:2.7em;margin:16px 0 20px;color:sienna}
+#Kopf .moduletable_titel .zeile2{font-size:1.9em;margin:0 0 28px 14px;color:darkorange}
+
+#Kopf .moduletable_menu{width:100%}
+#Kopf .moduletable_menu ul.menu{list-style:none}
+#Kopf .moduletable_menu ul.menu li{float:left}
+#Kopf .moduletable_menu ul.menu li.active a{text-decoration:underline}
+#Kopf .moduletable_menu ul.menu li a{text-transform:uppercase;color:dimgray;font-weight:normal;font-size:.86em;padding:6px 10px;display:inline-block}
+#Kopf .moduletable_menu ul.menu li:last-child a{padding-right:0}
+
+/* TEXT */
+#Text h1,
+#Text h2,
+#Text h3,
+#Text h4{font-weight:normal}
+#Text h1{font-size:2.1em;line-height:1.4em;padding-bottom:32px;color:slategray}
+#Text h2{font-size:2.1em;line-height:1.2em;padding:6px 0 14px;color:slategray}
+#Text h3{font-size:1.6em;line-height:1.0em;padding:12px 0 10px;color:slategray}
+#Text h4{font-size:1.1em;line-height:0.8em;padding:10px 0 5px;color:slategray}
+
+#Text p{line-height:1.52em;font-size:.9em;text-align:justify}
+#Text ul{list-style:none;list-style-position:inside;margin:0 2px 20px 20px}
+#Text li{margin-bottom:8px;font-size:.88em;text-indent:-1.2em}
+#Text li::before{content:"→ "}
+
+#Text .aktuelles{clear:both;border-top: 1px solid beige;padding-top: 5px;margin-top: 4px}
+
+#Text .item-page{position:relative}
+#Text .item-page dl span:first-child{display:none}
+#Text .newsflash dl span{display:inline-block !important}
+#Text .field-value{display:inline-block;width:100%}
+
+#Text fieldset{border:none}
+#Text .nav-stacked{display:none}
+
+#Text .icons{position:absolute;right:0;top:0}
+#Text button.dropdown-toggle,
+#Text .wf-editor-tabs,
+#Text #publishing,
+#Text #language,
+#Text #editor-xtd-buttons,
+#Text .mceBranding,
+#Text .mceStatusbar,
+#Text form#adminForm ul#com-content-formTabs{display:none}
+#Text .btn-toolbar div{float:left;margin:4px}
+
+/* Blog_Verkauf */
+#Text .blog_verkauf .items-row{clear:both;margin-bottom:10px}
+#Text .blog_verkauf img{float:left;width:180px;height:auto;margin-right:20px}
+
+
+/* Bild */
+#Bild img,#Bild2 img{width:100%}
+#Bild h2,
+#Bild h3,
+#Bild h4{font-weight:normal}
+#Bild h2{font-size:1.8em;line-height:1.2em;padding:6px 0 14px;color:dimgray}
+#Bild h3{font-size:1.6em;line-height:1.0em;padding:6px 0 12px;color:dimgray}
+#Bild h4{font-size:1.1em;line-height:0.8em;padding:10px 0 5px;color:dimgray}
+
+/* Fuss */
+#Fuss .moduletable,
+#Fuss .moduletable_menu,
+#Fuss .moduletable_zitat,
+#Fuss .moduletable_newsletter{float:left;margin:0 55px 35px 0}
+
+#Fuss .moduletable h3,
+#Fuss .moduletable_menu h3,
+#Fuss .moduletable_newsletter h3{font-size:.9em;font-weight:bold;margin-bottom:7px;color:darkorange}
+
+#Fuss .moduletable_newsletter form{padding-top:6px !important}
+#Fuss .moduletable_newsletter label{font-size:.8em !important}
+#Fuss .moduletable_newsletter input{float:right;margin-left:5px !important}
+#Fuss .moduletable_newsletter button{margin:8px 0 !important;width:100% !important;background-color:#b0c4de !important}
+#Fuss td{padding:0 0 2px !important}
+
+#Fuss .moduletable_menu{margin-right:0}
+#Fuss .moduletable_menu ul.menu{list-style:none}
+#Fuss .moduletable_menu ul.menu li{}
+#Fuss .moduletable_menu .separator,
+#Fuss .moduletable_menu ul.menu li a{text-transform:uppercase;color:dimgray;font-weight:normal;font-size:.8em;padding:2px 0;display:inline-block;border-left:0}
+
+#Fuss .moduletable_menu ul.menu li a::before{content: "→ "}
+
+/* Modul-Bearbeiten-Button */
+#Text li.edit-icon a{color:white}
+#Text li.edit-icon::before{content: none !important}
+
+li.edit-icon a,
+body a.btn.jmodedit:before{
+content:"Bearbeiten";
+font-size:.88em !important;
+font-weight:normal !important;
+color:#7F7F7F !important;
+text-align:center !important;
+text-decoration: none !important;
+display:inline-block !important;
+cursor:pointer !important;
+text-indent:0 !important;
+-webkit-appearance: button !important;
+-moz-appearance: button !important;
+appearance: button !important;
+}
+
+#Text form#modules-form hr,
+#Text form#modules-form legend,
+#Text form#modules-form span.label-default,
+#Text form#modules-form .control-group,
+#Text form#modules-form .control-label,
+#Text form#modules-form #options,
+#Text form#modules-form #editor-xtd-buttons
+{display:none}
+
+#Text form#modules-form .btn-toolbar,
+#Text form#modules-form,
+#Text form#modules-form,
+#Text form#modules-form,
+#Text form#modules-form fieldset.form-horizontal
+{width:100%;display:inline-block}
+
+/* CHRONOFORMS */
+.chronoforms6_credits{display:none}
+
+/* MEDIA QUERIES ------------------------------------- max-width:899px */
+@media only screen and (max-width:1399px){
+body{font-size:100%}
+}
+@media only screen and (min-width:1300px){
+body{font-size:112%}
+}
+@media only screen and (max-width:899px){
+#Rahmen{width:90%}
+#Kopf,#Inhalt,#Fuss{padding:20px 6%}
+#Kopf{padding-bottom:4px}
+#Bild{display:none}
+#Bild2{display:block}
+#Text{clear:both;width:100%;display:inline-block;margin:0;padding-right:0}
+
+#Kopf .moduletable_logo{width:33%;display:none}
+#Kopf .moduletable_titel{width:67%}
+#Kopf .moduletable_titel{width:100%}
+#Kopf .moduletable_titel .zeile1{font-size:2.4em;margin:16px 0 8px;color:#d23454;line-height:1.2em}
+#Kopf .moduletable_titel .zeile2{font-size:1.8em;margin:0 0 28px 14px;color:#955875}
+
+}
+</style>
+</head>
+
+<body>
+<a name="seitenanfang"></a>
+<div id="Rahmen">
+<div id="Kopf">
+<div id="mod-custom90" class="mod-custom custom">
+    <p class="zeile1">DrechslerArbeiten</p>
+<p class="zeile2">von Rolf Bucher</p></div>
+
+<div id="mod-custom93" class="mod-custom custom">
+    <p><img src="images/intern/logo.png" alt="logo" width="81" height="65" /></p></div>
+<ul class="mod-menu mod-list nav ">
+<li class="nav-item item-101 default"><a href="index.html" >Startseite</a></li><li class="nav-item item-120"><a href="verkauf" >Verkauf</a></li><li class="nav-item item-129"><a href="kontakt" >Kontakt</a></li><li class="nav-item item-143"><a href="galerie" >Galerie</a></li></ul>
+</div>
+<div id="Bild2"></div>
+	<div id="Inhalt">
+		<div id="Info"></div>
+		<div id="Text">
+			<div id="system-message-container" aria-live="polite"></div>
+
+			<div class="com-users-login login">
+    
+    
+        
+        
+    
+    <form action="https://rolfbucher.ch/intern?task=user.login" method="post" id="com-users-login__form" class="com-users-login__form form-validate form-horizontal well">
+
+        <fieldset>
+            <div class="control-group com-users-login__input">
+            <div class="control-label"><label id="username-lbl" for="username" class="required">
+    Benutzername<span class="star" aria-hidden="true">&#160;*</span></label>
+</div>
+        <div class="controls">
+        
+
+    
+    <input
+        type="text"
+        name="username"
+        id="username"
+        value=""
+                class="form-control validate-username required" size="25"         required autocomplete="username" autofocus     >
+
+    
+
+            </div>
+</div>
+<div class="control-group com-users-login__input">
+            <div class="control-label"><label id="password-lbl" for="password" class="required">
+    Passwort<span class="star" aria-hidden="true">&#160;*</span></label>
+</div>
+        <div class="controls">
+        
+<div class="password-group">
+    <div class="input-group">
+        <input
+            type="password"
+            name="password"
+            id="password"
+            value=""
+             autocomplete="current-password" class="form-control required"    size="25" maxlength="99" required  data-min-length="4"      >
+                <button type="button" class="btn btn-secondary input-password-toggle">
+            <span class="icon-eye icon-fw" aria-hidden="true"></span>
+            <span class="visually-hidden">Show Password</span>
+        </button>
+            </div>
+</div>            </div>
+</div>
+
+                            <div class="com-users-login__remember">
+                    <div class="form-check">
+                        <input class="form-check-input" id="remember" type="checkbox" name="remember" value="yes">
+                        <label class="form-check-label" for="remember">
+                            Angemeldet bleiben                        </label>
+                    </div>
+                </div>
+            
+                            <div class="com-users-login__submit control-group">
+                    <div class="controls">
+                        <button type="button"
+                                class="btn btn-secondary w-100 plg_system_webauthn_login_button"
+                                                                    data-webauthn-form="com-users-login__form"
+                                                                                                title="Sign in with a passkey"
+                                id="plg_system_webauthn-uYWohVX02SBr-7dUkQjI6"
+                        >
+                                                            <svg aria-hidden="true" id="Passkey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="icon-passkey"><circle id="icon-passkey-head" cx="10.5" cy="6" r="4.5"/><path id="icon-passkey-key" d="M22.5,10.5a3.5,3.5,0,1,0-5,3.15V19L19,20.5,21.5,18,20,16.5,21.5,15l-1.24-1.24A3.5,3.5,0,0,0,22.5,10.5Zm-3.5,0a1,1,0,1,1,1-1A1,1,0,0,1,19,10.5Z"/><path id="icon-passkey-body" d="M14.44,12.52A6,6,0,0,0,12,12H9a6,6,0,0,0-6,6v2H16V14.49A5.16,5.16,0,0,1,14.44,12.52Z"/></g></svg>
+                                                        Sign in with a passkey                        </button>
+                    </div>
+                </div>
+            
+            <div class="com-users-login__submit control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-primary">
+                        Anmelden                    </button>
+                </div>
+            </div>
+
+                        <input type="hidden" name="return" value="MTAx">
+            <input type="hidden" name="b9edac7ab0f0a8900f53bd93ebb6b032" value="1">        </fieldset>
+    </form>
+    <div class="com-users-login__options list-group">
+        <a class="com-users-login__reset list-group-item" href="intern@view=reset">
+            Passwort vergessen?        </a>
+        <a class="com-users-login__remind list-group-item" href="intern@view=remind">
+            Benutzername vergessen?        </a>
+            </div>
+</div>
+
+		</div>
+		<div id="Bild"></div>
+	</div>
+<div id="Fuss">
+<div id="mod-custom91" class="mod-custom custom">
+    <p>Rolf Bucher</p>
+<p>Rüteli 1<br />6064 Kerns</p>
+<p><strong>078 622 56 97</strong></p>
+<p><a href="mailto:Info@RolfBucher.ch">Info@RolfBucher.ch</a><br />www.RolfBucher.ch</p></div>
+<ul class="mod-menu mod-list nav ">
+<li class="nav-item item-111 current active"><a href="intern" aria-current="page">Intern</a></li><li class="nav-item item-110 divider"><span class="mod-menu__separator separator ">© 2019 by Rolf Bucher</span>
+</li></ul>
+</div>
+</div>
+</body>
+</html>

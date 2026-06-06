@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?2ef74a" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-de">
+	<title type="text">Verkauf</title>
+	<subtitle type="text">Drechslerarbeiten von Rolf Bucher</subtitle>
+	<link rel="alternate" type="text/html" href="https://rolfbucher.ch"/>
+	<id>https://rolfbucher.ch/verkauf</id>
+	<updated>2026-06-06T11:32:56+00:00</updated>
+	<author>
+		<name>Rolf Bucher, der Drechsler</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://rolfbucher.ch/verkauf?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Schale aus Apfelholz</title>
+		<link rel="alternate" type="text/html" href="https://rolfbucher.ch/verkauf/24-schale-aus-apfelholz"/>
+		<published>2021-01-13T11:57:26+00:00</published>
+		<updated>2021-01-13T11:57:26+00:00</updated>
+		<id>https://rolfbucher.ch/verkauf/24-schale-aus-apfelholz</id>
+		<author>
+			<name>Rolf Bucher</name>
+		</author>
+		<summary type="html">&lt;p class=&quot;zeile1 zeile2&quot;&gt;&lt;em&gt;&lt;strong&gt;Schöne Schale aus Apfel&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;27 cm &lt;/strong&gt;&lt;strong&gt;Durchmesser und ca. 10 cm hoch &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Preis auf Anfrage &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;a class=&quot;jcepopup&quot; href=&quot;https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_2.JPG&quot; type=&quot;image/jpeg&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_1.JPG&quot; alt=&quot;Apfelschüssel 1&quot; width=&quot;79&quot; height=&quot;71&quot; /&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_2.JPG&quot; alt=&quot;Apfelschüssel 2&quot; width=&quot;76&quot; height=&quot;84&quot; /&gt;&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p class=&quot;zeile1 zeile2&quot;&gt;&lt;em&gt;&lt;strong&gt;Schöne Schale aus Apfel&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;27 cm &lt;/strong&gt;&lt;strong&gt;Durchmesser und ca. 10 cm hoch &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Preis auf Anfrage &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;a class=&quot;jcepopup&quot; href=&quot;https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_2.JPG&quot; type=&quot;image/jpeg&quot; data-mediabox=&quot;1&quot;&gt;&lt;img src=&quot;https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_1.JPG&quot; alt=&quot;Apfelschüssel 1&quot; width=&quot;79&quot; height=&quot;71&quot; /&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;https://rolfbucher.ch/images/verkauf/Test/Apfelschüssel_2.JPG&quot; alt=&quot;Apfelschüssel 2&quot; width=&quot;76&quot; height=&quot;84&quot; /&gt;&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</content>
+		<category term="Verkauf" />
+	</entry>
+	<entry>
+		<title>Div. Holzarten für Schalen</title>
+		<link rel="alternate" type="text/html" href="https://rolfbucher.ch/verkauf/4-div-holzarten-fuer-schalen"/>
+		<published>2019-12-15T07:48:17+00:00</published>
+		<updated>2019-12-15T07:48:17+00:00</updated>
+		<id>https://rolfbucher.ch/verkauf/4-div-holzarten-fuer-schalen</id>
+		<author>
+			<name>Rolf Bucher</name>
+		</author>
+		<summary type="html">&lt;p&gt;Kirsche, Apfel, Birne, Eiche, Esche und Buche in div. Grössen&lt;/p&gt;
+&lt;p&gt;Je nach Holzart zwischen 1 und 4 Jahre am Trocknen&lt;/p&gt;
+&lt;p&gt;Preis auf Anfrage&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;Kirsche, Apfel, Birne, Eiche, Esche und Buche in div. Grössen&lt;/p&gt;
+&lt;p&gt;Je nach Holzart zwischen 1 und 4 Jahre am Trocknen&lt;/p&gt;
+&lt;p&gt;Preis auf Anfrage&lt;/p&gt;</content>
+		<category term="Verkauf" />
+	</entry>
+</feed>
